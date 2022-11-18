@@ -2,7 +2,7 @@
 baseurl: "https://gallery.lushuyu.site"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: ""
+google_analytics: "UA-155164974-2"
 
 # UI configs
 title: "Lu Shuyu's gallery"
