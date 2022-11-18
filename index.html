@@ -20,8 +20,8 @@ layout: default
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
-            <a href="https://cdn.lushuyu.site/gallery_cdn/{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="https://cdn.lushuyu.site/gallery_cdn/{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
+            <a href="https://cdn.lushuyu.site/gallery_cdn{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
+                <img src="https://cdn.lushuyu.site/gallery_cdn{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
             <p></p>-->
